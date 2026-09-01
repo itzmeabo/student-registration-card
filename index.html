@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Card</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <button id="themeToggleBtn">Toggle Theme</button>
+
+  <main class="card">
+    <h2>Student Registration</h2>
+    
+    <p id="welcomeMessage">Welcome, Guest!</p>
+
+    
+    <form id="studentForm">
+      <div>
+        <label for="nameInput">Student Name:</label>
+        <input type="text" id="nameInput" required placeholder="Enter name">
+      </div>
+      <div>
+        <label for="courseInput">Course:</label>
+        <input type="text" id="courseInput" required placeholder="Enter course">
+      </div>
+      <button type="submit">Register</button>
+    </form>
+
+    <p id="registrationResult"></p>
+  </main>
+
+</body>
+</html>
